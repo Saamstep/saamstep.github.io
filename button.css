@@ -1,0 +1,47 @@
+.button {
+   border: 1px solid #636363;
+   background: #8f8f8f;
+   background: -webkit-gradient(linear, left top, left bottom, from(#9c9c9c), to(#8f8f8f));
+   background: -webkit-linear-gradient(top, #9c9c9c, #8f8f8f);
+   background: -moz-linear-gradient(top, #9c9c9c, #8f8f8f);
+   background: -ms-linear-gradient(top, #9c9c9c, #8f8f8f);
+   background: -o-linear-gradient(top, #9c9c9c, #8f8f8f);
+   background-image: -ms-linear-gradient(top, #9c9c9c 0%, #8f8f8f 100%);
+   padding: 9.5px 19px;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   text-shadow: #7ea4bd 0 1px 0;
+   color: #ffffff;
+   font-size: 14px;
+   font-family: helvetica, serif;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.button:hover {
+   border: 1px solid #0a3c59;
+   text-shadow: #ffffff 0 1px 0;
+   background: #ebebeb;
+   background: -webkit-gradient(linear, left top, left bottom, from(#dbd4db), to(#ebebeb));
+   background: -webkit-linear-gradient(top, #dbd4db, #ebebeb);
+   background: -moz-linear-gradient(top, #dbd4db, #ebebeb);
+   background: -ms-linear-gradient(top, #dbd4db, #ebebeb);
+   background: -o-linear-gradient(top, #dbd4db, #ebebeb);
+   background-image: -ms-linear-gradient(top, #dbd4db 0%, #ebebeb 100%);
+   color: #3b3b3b;
+   }
+.button:active {
+   text-shadow: #1e4158 0 1px 0;
+   border: 1px solid #0a3c59;
+   background: #65a9d7;
+   background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#ebebeb));
+   background: -webkit-linear-gradient(top, #3e779d, #65a9d7);
+   background: -moz-linear-gradient(top, #3e779d, #65a9d7);
+   background: -ms-linear-gradient(top, #3e779d, #65a9d7);
+   background: -o-linear-gradient(top, #3e779d, #65a9d7);
+   background-image: -ms-linear-gradient(top, #3e779d 0%, #65a9d7 100%);
+   color: #fff;
+   }
