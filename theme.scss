@@ -1,0 +1,54 @@
+// Options
+
+
+// 
+// Quickly modify global styling by enabling or disabling optional features.
+  
+$enable-rounded:            true !default;
+$enable-shadows:            true;
+$enable-transitions:        true;
+$enable-hover-media-query:  false;
+$enable-grid-classes:       true;
+$enable-print-styles:       true;
+
+// Variables
+//
+// Colors
+
+$theme-colors: (
+  primary: grey,
+  secondary: #4f70ce,
+  light: #f3f3f3,
+  dark: #4f70ce,
+  info: #ccc,
+  success: #28a745,
+  warning: #ffc107,
+  danger: #dc3545
+);
+
+$body-bg: white;
+$body-color: #4f70ce;
+
+
+$body-color-inverse: invert($body-color) !default;
+$link-color: #12bbad;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+$font-family-base: Press+Start+2P, Lucida Console, Monaco, monospace;
+
+$display-font-family: $font-family-base;
+
+
+$lead-font-size:   1.30rem;
+
+$spacer: 1.5rem;
+$headings-font-family: Lucida Console, Monaco, monospace;
+
+
+
+@import 'bootstrap-4.1.3';
+
+
+.center {
+}
