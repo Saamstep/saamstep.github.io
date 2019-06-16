@@ -55,17 +55,46 @@
       </div>
     </div>
   </div>
+  <div class="modal fade pt-5" id="errorModal">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Invalid Client ID</h5> <button type="button" class="close" data-dismiss="modal"> <span>×</span> </button>
+        </div>
+        <div class="modal-body">
+          <p>Please make sure to enter a Client ID in the specified field. If you are stuck refer to <a href="https://discordbots.samstep.ga" target="_blank">https://discordbots.samstep.ga</a>.</p>
+        </div>
+        <div class="modal-footer"> <button type="button" class="btn btn-secondary" data-dismiss="modal">Got it!</button> </div>
+      </div>
+    </div>
+  </div>
   <div class="">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="container">
+      <div class="row">
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 pb-3">
           <form class="form-inline">
             <div class="input-group">
-              <input type="text" class="form-control text-center" placeholder="Client ID" id="clientid">
-              <div class="input-group-append"><button type="button" class="btn btn-primary btn-sm btn-block" onclick="getInvite()">Get Invite</button></div>
-              <script style="">
-                function getInvite() {
+              <input type="number" class="form-control text-center" id="clientid" placeholder="Client ID" required="true">
+              <script style="" id="getinv">
+                function getModMailInvite() {
                   let id = document.getElementById("clientid").value
+                  if (id === "") {
+                    return $("#errorModal").modal();
+                  }
                   console.log("ID is " + id);
                   window.open(`https://discordapp.com/oauth2/authorize?client_id=${id}&scope=bot&permissions=388160`, '_self', false)
                 }
@@ -76,10 +105,22 @@
       </div>
     </div>
   </div>
-  <div class="py-5 pb-5 p-5">
+  <div class="">
     <div class="container">
       <div class="row">
-        <div class="col-md-12"></div>
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="btn-group">
+            <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Select Bot</button>
+            <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(0px, 38px, 0px);"> <a class="dropdown-item" href="#" onclick="getModMailInvite()">ModMail</a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -88,15 +129,6 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <p class="text-white mt-5 pt-5">Website by Samstep | Made with <a href="https://pingendo.com/" target="_blank">Pingendo</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <h1 class="">Heading 1</h1>
         </div>
       </div>
     </div>
