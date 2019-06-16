@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
   <link rel="stylesheet" href="theme.css">
-  <title>Samstep - Contact</title>
+  <title>Samstep - Invite Generator</title>
   <link rel="icon" href="https://avatars2.githubusercontent.com/u/24730717?s=400&amp;v=4">
 </head>
 
@@ -20,9 +20,9 @@
         <ul class="navbar-nav mr-auto">
           <li class="nav-item"> <a class="nav-link" href="/">Home</a> </li>
           <li class="nav-item"> <a class="nav-link" href="/about">About</a> </li>
-          <li class="nav-item d-flex"> <a class="nav-link" href="https://discordbots.samstep.ga">Discord Bots</a> </li>
+          <li class="nav-item d-flex"> <a class="nav-link active" href="https://discordbots.samstep.ga">Discord Bots</a> </li>
           <li class="nav-item d-flex"> <a class="nav-link" href="/mc">MC Tutorials &amp; Projects</a> </li>
-          <li class="nav-item d-flex"> <a class="nav-link active" href="/contact">Contact</a> </li>
+          <li class="nav-item d-flex"> <a class="nav-link" href="/contact">Contact</a> </li>
         </ul>
         <ul class="navbar-nav ml-auto">
           <li class="nav-item mx-1"> <a class="nav-link" href="http://status.samstep.ga">
@@ -46,14 +46,40 @@
       </div>
     </div>
   </nav>
-  <div class="bg-dark py-5 pb-5">
+  <div class="pt-5">
     <div class="container">
       <div class="row">
-        <div class="ml-0 mt-0 col-sm-10 col-md-12" style="">
-          <h2 class="display-5 text-light">Twitter</h2>
-          <p class="text-light">Send me a message via Twitter and I can get back to you as soon as possible!</p>
-          <a class="btn text-white p-0 py-0 pr-0 m-0 mx-0" href="http://bit.ly/tweetsamstep" style="background: rgb(85, 172, 238);" target="_blank" id="center"><i class="fa fa-twitter fa-fw fa-1x py-1"></i> Tweet</a>
+        <div class="col-md-12">
+          <h1 class="display-4 text-light">App Invite Generator</h1>
         </div>
+      </div>
+    </div>
+  </div>
+  <div class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <form class="form-inline">
+            <div class="input-group">
+              <input type="text" class="form-control text-center" placeholder="Client ID" id="clientid">
+              <div class="input-group-append"><button type="button" class="btn btn-primary btn-sm btn-block" onclick="getInvite()">Get Invite</button></div>
+              <script style="">
+                function getInvite() {
+                  let id = document.getElementById("clientid").value
+                  console.log("ID is " + id);
+                  window.open(`https://discordapp.com/oauth2/authorize?client_id=${id}&scope=bot&permissions=388160`, '_self', false)
+                }
+              </script>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5 pb-5 p-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"></div>
       </div>
     </div>
   </div>
@@ -62,6 +88,15 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <p class="text-white mt-5 pt-5">Website by Samstep | Made with <a href="https://pingendo.com/" target="_blank">Pingendo</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="">Heading 1</h1>
         </div>
       </div>
     </div>
