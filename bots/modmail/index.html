@@ -7,11 +7,24 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
   <link rel="stylesheet" href="../../theme.css">
+  <script src="../../js/jquery-3.4.1.min.js"></script>
   <title>Samstep - ModMail Bot</title>
-  <link rel="icon" href="https://avatars2.githubusercontent.com/u/24730717?s=400&amp;v=4">>
+  <link rel="icon" href="https://avatars2.githubusercontent.com/u/24730717?s=400&amp;v=4">
 </head>
-
 <body>
+  <style>
+    video::-webkit-media-controls-volume-slider {
+      display:none;
+    }
+      
+    video::-webkit-media-controls-mute-button {
+      display:none;
+    }
+  
+    video::-webkit-media-controls-fullscreen-button {
+      display:none;
+    }
+  </style>
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark" style="">
     <div class="container"> <button class="navbar-toggler navbar-toggler-right border-0 p-0" type="button" data-toggle="collapse" data-target="#navbar14">
         <p class="navbar-brand mb-0 text-white"> Samstep </p>
@@ -60,13 +73,25 @@
       <div class="row">
         <div class="col-md-12">
           <h5 class="">About</h5>
-          <p class="">Simple way to contact server administration team.</p>
+          <p class="">Simple way to contact server administration team with ticket organization system</p>
         </div>
       </div>
       <div class="row">
         <div class="col-md-12">
           <h5 class="">Features</h5>
-          <p class="">- User direct messages the bot account, bot account sends message to set channel.<br>- Quick reply feature so administrators can quickly message users, add roles, etc.<br>- Mark as read system to tell other administrators that the message has been taken care of</p>
+          <p class="">- User direct messages the bot account, bot account sends message to channel specifically assigned to the user.<br>- Easy to use ticket management system<br>- Tickets stored in convinient, customizable channel category<br>- Close any ticket to remove the channel category<br>- Chat log uploaded after ModMail closed<br>  
+        </div>
+        <div class="col-md-12">
+          <h5 class="">Example</h5>
+          <p>The screen on the left simulates a user and the screen on the rights simulates an admin.</p>
+          <video height=90% width=100% autoplay muted loop>
+            Your browser does not support HTML5 video.
+            <source src="../assets/modmail.mp4" type=video/mp4>
+          </video>
+        </div>
+        <div class="col-md-12">
+          <h5 class="">Issues? Suggestions?</h5>
+          <p>If you are experiencing issues or have a suggestions please submit an <a href="https://github.com/Saamstep/modmail/issues/4">issue</a> on GitHub.</p>
         </div>
       </div>
     </div>
@@ -132,7 +157,11 @@
       </div>
       <div class="row">
         <div class="col-md-12">
+          
           <h6 class="mt-3">Config File Setup</h6>
+          <div class="col-md-12">
+            <li class="list-group-item mb-3 disabled text-info" style=""><i class="fas fa-code"></i> Setup scripts are in the works to make installation easier! Stay tuned for updates in my Discord server :)</li>
+          </div>
           <p class="">Create a config file called <b>config.json</b> in the root folder of the bot (same folder as <b>index.js</b>)<br><br>You can also just create a copy of the example config.json with the command below&nbsp;</p>
           <div class="col-md-12" style="">
             <div class="card text-white bg-secondary mb-3">
@@ -171,7 +200,7 @@
             <div class="card-header">
               <ul class="nav nav-tabs card-header-tabs">
                 <li class="nav-item">
-                  <a class="nav-link active" data-toggle="tab" data-target="#tabone">config.json</a>
+                  <!-- <a class="nav-link active" data-toggle="tab" data-target="#tabone">config.json</a> -->
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" data-toggle="tab" data-target="#tabtwo">example.config.json</a>
@@ -180,11 +209,22 @@
             </div>
             <div class="card-body">
               <div class="tab-content mt-2">
-                <div class="tab-pane fade show active" id="tabone" role="tabpanel">
-                  <pre><code class="json"><p class="text-left" style="">{ "prefix": "", &lt;----- Prefix for the bot&nbsp;<br>"token": "", &lt;---- Bot Token&nbsp;<br>"ownerid": "", &lt;---- Your Discord ID&nbsp;<br>"defaultGame": "for DMs", &lt;--- Default "playing" status<br>"debug": false, &lt;---- Error reports from the log<br>"guildID": "", &lt;---- The guild's ID you are using this for&nbsp;<br>"role": {&nbsp;<br>&nbsp; "admin": "" &lt;----- Role Name&nbsp;<br>&nbsp; },&nbsp;<br>"channel": {&nbsp;<br>&nbsp; "log": "", &lt;----- This must be channel name&nbsp;<br>&nbsp; "modmail": "" &lt;--- This must be channel ID&nbsp;<br>&nbsp; },&nbsp;<br>}<br><br></p></code></pre>
-                </div>
-                <div class="tab-pane fade" id="tabtwo" role="tabpanel">
-                  <pre><code class="json"><p class="text-left">{ "prefix": "$",&nbsp;<br>"token": "123456789101112131415",&nbsp;<br>"ownerid": "23232039",&nbsp;<br>"defaultGame": "for DMs",&nbsp;<br>"debug": false,&nbsp;<br>"guildID": "02984902184",&nbsp;<br>"role": {&nbsp;<br>&nbsp; "admin": "Administrator"&nbsp;<br>&nbsp; },<br>"channel":&nbsp;{&nbsp;<br>&nbsp; "log": "log",&nbsp;<br>&nbsp; "modmail":&nbsp;"209387210938"&nbsp;<br>&nbsp; },&nbsp;<br>}</p></code></pre>
+                <!-- <div class="tab-pane fade show active" id="tabone" role="tabpanel">
+                  <pre><code class="json"><p class="text-left" id="conf"></p></code></pre>
+                  <script>
+                      $.get('https://cdn.jsdelivr.net/gh/Saamstep/modmail@master/config.json', function(data) {
+                        document.getElementById("conf").innerHTML = JSON.stringify(data, null, 3);
+                      });
+                    </script>
+                  
+                </div> -->
+                <div class="tab-pane active" id="tabtwo" role="tabpanel">
+                  <script>
+                    $.get('https://cdn.jsdelivr.net/gh/Saamstep/modmail@master/example.config.json', function(data) {
+                      document.getElementById("example-conf").innerHTML = JSON.stringify(data, null, 3);
+                    });
+                  </script>
+                  <pre><code class="json"><p class="text-left" id="example-conf"></p></code></pre>
                 </div>
               </div>
             </div>
