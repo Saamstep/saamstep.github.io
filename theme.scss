@@ -16,22 +16,22 @@ $enable-print-styles:       true;
 // Colors
 
 $theme-colors: (
-  primary: grey,
-  secondary: #4f70ce,
-  light: #f3f3f3,
-  dark: #4f70ce,
+  primary: #2B738B,
+  secondary: white,
+  light: lightgrey,
+  dark: #323234,
   info: #ccc,
   success: #28a745,
   warning: #ffc107,
   danger: #dc3545
 );
 
-$body-bg: white;
-$body-color: #4f70ce;
+$body-bg: #323234;
+$body-color: white;
 
 
 $body-color-inverse: invert($body-color) !default;
-$link-color: #12bbad;
+$link-color: #D9AB2E;
 
 // Fonts
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
