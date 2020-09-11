@@ -20,12 +20,12 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #2B738B;
-  --secondary: white;
+  --secondary: #FFFFFF;
   --success: #28a745;
   --info: #ccc;
   --warning: #ffc107;
   --danger: #dc3545;
-  --light: lightgrey;
+  --light: #d3d3d3;
   --dark: #323234;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -60,7 +60,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: white;
+  color: #FFFFFF;
   text-align: left;
   background-color: #323234; }
 
@@ -1094,7 +1094,7 @@ pre {
 .table-secondary,
 .table-secondary > th,
 .table-secondary > td {
-  background-color: white; }
+  background-color: #FFFFFF; }
 
 .table-hover .table-secondary:hover {
   background-color: #f2f2f2; }
@@ -1329,7 +1329,7 @@ select.form-control:focus::-ms-value {
   padding-bottom: 0.375rem;
   margin-bottom: 0;
   line-height: 1.5;
-  color: white;
+  color: #FFFFFF;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0; }
