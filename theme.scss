@@ -1,54 +1,50 @@
 // Options
 
-
-// 
+//
 // Quickly modify global styling by enabling or disabling optional features.
-  
-$enable-rounded:            true !default;
-$enable-shadows:            true;
-$enable-transitions:        true;
-$enable-hover-media-query:  false;
-$enable-grid-classes:       true;
-$enable-print-styles:       true;
+
+$enable-rounded: true !default;
+$enable-shadows: true;
+$enable-transitions: true;
+$enable-hover-media-query: false;
+$enable-grid-classes: true;
+$enable-print-styles: true;
 
 // Variables
 //
 // Colors
 
 $theme-colors: (
-  primary: #2B738B,
+  primary: #2b738b,
   secondary: white,
   light: lightgrey,
-  dark: #323234,
+  dark: #3e3e41,
   info: #ccc,
   success: #28a745,
   warning: #ffc107,
-  danger: #dc3545
+  danger: #dc3545,
 );
 
 $body-bg: #323234;
 $body-color: white;
 
-
 $body-color-inverse: invert($body-color) !default;
-$link-color: #D9AB2E;
+$link-color: #d9ab2e;
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
-$font-family-base: Press+Start+2P, Lucida Console, Monaco, monospace;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+$font-family-base: "Open Sans", sans-serif;
 $display-font-family: $font-family-base;
 
-
-$lead-font-size:   1.30rem;
+$lead-font-size: 1.3rem;
 
 $spacer: 1.5rem;
-$headings-font-family: Lucida Console, Monaco, monospace;
+$headings-font-family: "Ubuntu Mono", monospace;
 
-
-
-@import 'bootstrap-4.1.3';
-
+@import "bootstrap-4.1.3";
 
 .center {
 }
