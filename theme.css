@@ -57,7 +57,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap", "Open Sans", sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -303,7 +303,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.75rem;
-  font-family: "Ubuntu Mono", monospace;
+  font-family: "https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap", "Ubuntu Mono", monospace;
   font-weight: 500;
   line-height: 1.2;
   color: inherit; }
@@ -3942,7 +3942,7 @@ button.close {
   z-index: 1070;
   display: block;
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap", "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;
@@ -4027,7 +4027,7 @@ button.close {
   z-index: 1060;
   display: block;
   max-width: 276px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap", "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 400;
   line-height: 1.5;

@@ -36,13 +36,13 @@ $link-color: #d9ab2e;
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
-$font-family-base: "Open Sans", sans-serif;
+$font-family-base: "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap", "Open Sans", sans-serif;
 $display-font-family: $font-family-base;
 
 $lead-font-size: 1.3rem;
 
 $spacer: 1.5rem;
-$headings-font-family: "Ubuntu Mono", monospace;
+$headings-font-family: "https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap", "Ubuntu Mono", monospace;
 
 @import "bootstrap-4.1.3";
 
