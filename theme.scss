@@ -3,8 +3,8 @@
 //
 // Quickly modify global styling by enabling or disabling optional features.
 
-$enable-rounded: true !default;
-$enable-shadows: true;
+$enable-rounded: false !default;
+$enable-shadows: false;
 $enable-transitions: true;
 $enable-hover-media-query: false;
 $enable-grid-classes: true;
@@ -18,21 +18,23 @@ $theme-colors: (
   primary: #2b738b,
   secondary: white,
   light: lightgrey,
-  dark: #3e3e41,
+  dark: #222224,
   info: #ccc,
   success: #28a745,
   warning: #ffc107,
   danger: #dc3545,
 );
 
-$body-bg: #323234;
+$body-bg: #222224;
 $body-color: white;
 
 $body-color-inverse: invert($body-color) !default;
 $link-color: #d9ab2e;
 
 // Fonts
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Work+Sans:wght@600&display=swap');
 
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
@@ -42,7 +44,11 @@ $display-font-family: $font-family-base;
 $lead-font-size: 1.3rem;
 
 $spacer: 1.5rem;
-$headings-font-family: "https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@700&display=swap", "Ubuntu Mono", monospace;
+$headings-font-family: "@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');", "Work Sans", monospace;
+
+
+
+
 
 @import "bootstrap-4.1.3";
 
