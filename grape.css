@@ -1,0 +1,712 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.gjs-grid-column {
+  flex: 1 1 0%;
+  padding: 5px 0;
+}
+.gjs-grid-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: row;
+  min-height: auto;
+  padding: 10px 0;
+}
+.gjs-heading {
+  margin: 0;
+}
+.gjs-heading {
+  margin: 0;
+  color: rgba(29, 40, 55, 1);
+}
+.gjs-grid-column {
+  flex: 1 1 0%;
+  padding: 5px 0;
+}
+.gjs-grid-row {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-direction: row;
+  min-height: auto;
+  padding: 10px 0;
+}
+.gjs-grid-column.feature-item {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 30%;
+}
+.gjs-grid-column.testimonial-item {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  min-width: 45%;
+  background-color: rgba(247, 247, 247, 0.23);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  align-items: flex-start;
+  border-top-width: 1px;
+  border-right-width: 1px;
+  border-bottom-width: 1px;
+  border-left-width: 1px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: rgba(0, 0, 0, 0.06);
+  border-right-color: rgba(0, 0, 0, 0.06);
+  border-bottom-color: rgba(0, 0, 0, 0.06);
+  border-left-color: rgba(0, 0, 0, 0.06);
+}
+.gjs-link:hover {
+  color: rgb(36, 99, 235);
+  text-decoration: underline;
+}
+.gjs-icon.gjs-feature-icon {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: rgb(36, 99, 235);
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#irndyb {
+  background-color: rgba(0, 0, 0, 1);
+  background-clip: border-box;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 39px;
+  padding-left: 0px;
+  font-family: Helvetica, sans-serif;
+  color: white;
+}
+.gjs-container {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.gjs-section {
+  display: flex;
+  padding: 50px 0;
+}
+#igbjpg {
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(3, 21, 38, 0.6) 1%, rgba(3, 21, 38, 0.6) 100%), url("https://i.imgur.com/LpPvWwk.jpg");
+  background-position: 0px 0px, 0px 0px;
+  background-size: 100% 100%, auto auto;
+  background-repeat: repeat, round;
+  background-attachment: scroll, fixed;
+  background-origin: padding-box, content-box;
+  height: 304px;
+  position: sticky;
+}
+#iokscs {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 47px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+#ihm4u {
+  transition: opacity 2s ease-in 1s;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(2, 10, 19, 1);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+  align-content: center;
+}
+#ifs9z {
+  background-color: rgba(2, 7, 12, 1);
+  padding-top: 26px;
+  padding-right: 0px;
+  padding-bottom: 26px;
+  padding-left: 0px;
+}
+#i7s0t {
+  padding: 10px;
+  font-family: Helvetica, sans-serif;
+  color: grey;
+  text-align: center;
+  font-size: 8px;
+}
+#itgwf {
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+.gjs-icon {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  vertical-align: middle;
+  fill: currentColor;
+  width: 50px;
+  height: 50px;
+}
+#isfqo {
+  width: 33px;
+  height: 33px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+#il6mv {
+  flex: 0 1 auto;
+  display: block;
+}
+#i57pm5 {
+  width: 33px;
+  height: 33px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding-top: 5px;
+}
+#iokscs:hover {
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+}
+.gjs-link {
+  vertical-align: top;
+  max-width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+#ih4tpq {
+  background-image: url("https://images.pexels.com/photos/15469650/pexels-photo-15469650/free-photo-of-monochroom-winterlandschap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: 0px -210px;
+  background-size: 560px 560px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  min-width: 320px;
+  box-shadow: 0px 0 5px 0px rgba(0, 0, 0, 0);
+  max-height: 182px;
+  min-height: 130px;
+  max-width: 425px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+#i9efps {
+  display: flex;
+}
+#ikc3uj {
+  color: black;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  display: flex;
+}
+#i24hq1 {
+  color: #1c8eff;
+  display: inline-block;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+#ib3lsd {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  display: flex;
+  flex: 1 1 0%;
+  align-self: center;
+  flex-direction: column;
+}
+#ix7gtx {
+  min-width: 320px;
+  min-height: 120px;
+  max-width: 425px;
+}
+#ipigjg {
+  background-clip: content-box;
+  background-color: rgba(255, 255, 255, 1);
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  flex: 0 1 auto;
+  min-width: 320px;
+  max-width: 425px;
+  width: 425px;
+}
+#i4kufm {
+  background-image: url("https://images.pexels.com/photos/15469650/pexels-photo-15469650/free-photo-of-monochroom-winterlandschap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: 0px -210px;
+  background-size: 560px 560px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  min-width: 320px;
+  box-shadow: 0px 0 5px 0px rgba(0, 0, 0, 0);
+  max-height: 182px;
+  min-height: 130px;
+  max-width: 425px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+#i250cz {
+  display: flex;
+}
+#i9ymmz {
+  color: black;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  display: flex;
+}
+#itwg6h {
+  color: #1c8eff;
+  display: inline-block;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+#irot5w {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  display: flex;
+  flex: 1 1 0%;
+  align-self: center;
+  flex-direction: column;
+}
+#imao4k {
+  min-width: 320px;
+  min-height: 120px;
+  max-width: 425px;
+}
+#ia1m9w {
+  background-clip: content-box;
+  background-color: rgba(255, 255, 255, 1);
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  flex: 0 1 auto;
+  min-width: 320px;
+  max-width: 425px;
+  width: 425px;
+}
+#iok86h {
+  background-image: url("https://images.pexels.com/photos/15469650/pexels-photo-15469650/free-photo-of-monochroom-winterlandschap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: 0px -210px;
+  background-size: 560px 560px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  min-width: 320px;
+  box-shadow: 0px 0 5px 0px rgba(0, 0, 0, 0);
+  max-height: 182px;
+  min-height: 130px;
+  max-width: 425px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+#icwey2 {
+  display: flex;
+}
+#i4fvu5 {
+  color: black;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  display: flex;
+}
+#iurbro {
+  color: #1c8eff;
+  display: inline-block;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+#in7chf {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  display: flex;
+  flex: 1 1 0%;
+  align-self: center;
+  flex-direction: column;
+}
+#ioceor {
+  min-width: 320px;
+  min-height: 120px;
+  max-width: 425px;
+}
+#igiv1u {
+  background-clip: content-box;
+  background-color: rgba(255, 255, 255, 1);
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  flex: 0 1 auto;
+  min-width: 320px;
+  max-width: 425px;
+  width: 425px;
+}
+#ihg01h {
+  background-image: url("https://images.pexels.com/photos/15469650/pexels-photo-15469650/free-photo-of-monochroom-winterlandschap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: 0px -210px;
+  background-size: 560px 560px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  min-width: 320px;
+  box-shadow: 0px 0 5px 0px rgba(0, 0, 0, 0);
+  max-height: 182px;
+  min-height: 130px;
+  max-width: 425px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+#ibg0np {
+  display: flex;
+}
+#ix6s7j {
+  color: black;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  display: flex;
+}
+#i8vtsp {
+  color: #1c8eff;
+  display: inline-block;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+#i3kgzf {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  display: flex;
+  flex: 1 1 0%;
+  align-self: center;
+  flex-direction: column;
+}
+#iwfz2x {
+  min-width: 320px;
+  min-height: 120px;
+  max-width: 425px;
+}
+#isccbj {
+  background-clip: content-box;
+  background-color: rgba(255, 255, 255, 1);
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  flex: 0 1 auto;
+  min-width: 320px;
+  max-width: 425px;
+  width: 425px;
+}
+#iyvqkh {
+  background-image: url("https://images.pexels.com/photos/15469650/pexels-photo-15469650/free-photo-of-monochroom-winterlandschap.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: 0px -210px;
+  background-size: 560px 560px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-origin: padding-box;
+  min-width: 320px;
+  box-shadow: 0px 0 5px 0px rgba(0, 0, 0, 0);
+  max-height: 182px;
+  min-height: 130px;
+  max-width: 425px;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+#iw3vz7 {
+  display: flex;
+}
+#ix50ke {
+  color: black;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 3px;
+  display: flex;
+}
+#i2g1ad {
+  color: #1c8eff;
+  display: inline-block;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+#ioq5x1 {
+  padding-top: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  display: flex;
+  flex: 1 1 0%;
+  align-self: center;
+  flex-direction: column;
+}
+#iyy8t7 {
+  min-width: 320px;
+  min-height: 120px;
+  max-width: 425px;
+}
+#icsoe6 {
+  background-clip: content-box;
+  background-color: rgba(255, 255, 255, 1);
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  flex: 0 1 auto;
+  min-width: 320px;
+  max-width: 425px;
+  width: 425px;
+}
+#isfqo:hover {
+  opacity: 50%;
+  cursor: pointer;
+}
+#i57pm5:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@media (max-width: 992px) {
+  .gjs-grid-row {
+    flex-direction: column;
+  }
+  .gjs-grid-row {
+    flex-direction: column;
+  }
+  #ib3lsd {
+    min-width: 320px;
+    max-width: 425px;
+    width: auto;
+    align-self: auto;
+    flex: 0 1 auto;
+  }
+  #ix7gtx {
+    width: auto;
+  }
+  #irot5w {
+    min-width: 320px;
+    max-width: 425px;
+    width: auto;
+    align-self: auto;
+    flex: 0 1 auto;
+  }
+  #imao4k {
+    width: auto;
+  }
+  #in7chf {
+    min-width: 320px;
+    max-width: 425px;
+    width: auto;
+    align-self: auto;
+    flex: 0 1 auto;
+  }
+  #ioceor {
+    width: auto;
+  }
+  #i3kgzf {
+    min-width: 320px;
+    max-width: 425px;
+    width: auto;
+    align-self: auto;
+    flex: 0 1 auto;
+  }
+  #iwfz2x {
+    width: auto;
+  }
+  #ioq5x1 {
+    min-width: 320px;
+    max-width: 425px;
+    width: auto;
+    align-self: auto;
+    flex: 0 1 auto;
+  }
+  #iyy8t7 {
+    width: auto;
+  }
+}
+@media (max-width: 480px) {
+  #ipigjg {
+    min-width: 220px;
+    width: auto;
+  }
+  #ih4tpq {
+    min-width: 220px;
+    width: auto;
+  }
+  #ix7gtx {
+    width: auto;
+    min-height: 120px;
+    min-width: 300px;
+  }
+  #ib3lsd {
+    align-self: auto;
+    min-width: 220px;
+  }
+  #i4kufm {
+    min-width: 220px;
+    width: auto;
+  }
+  #irot5w {
+    align-self: auto;
+    min-width: 220px;
+  }
+  #imao4k {
+    width: auto;
+    min-height: 120px;
+    min-width: 300px;
+  }
+  #ia1m9w {
+    min-width: 220px;
+    width: auto;
+  }
+  #iok86h {
+    min-width: 220px;
+    width: auto;
+  }
+  #in7chf {
+    align-self: auto;
+    min-width: 220px;
+  }
+  #ioceor {
+    width: auto;
+    min-height: 120px;
+    min-width: 300px;
+  }
+  #igiv1u {
+    min-width: 220px;
+    width: auto;
+  }
+  #ihg01h {
+    min-width: 220px;
+    width: auto;
+  }
+  #i3kgzf {
+    align-self: auto;
+    min-width: 220px;
+  }
+  #iwfz2x {
+    width: auto;
+    min-height: 120px;
+    min-width: 300px;
+  }
+  #isccbj {
+    min-width: 220px;
+    width: auto;
+  }
+  #iyvqkh {
+    min-width: 220px;
+    width: auto;
+  }
+  #ioq5x1 {
+    align-self: auto;
+    min-width: 220px;
+  }
+  #iyy8t7 {
+    width: auto;
+    min-height: 120px;
+    min-width: 300px;
+  }
+  #icsoe6 {
+    min-width: 220px;
+    width: auto;
+  }
+}
